@@ -11,26 +11,7 @@ const router = createRouter({
             path: "/home",
             component: () => import(`@/views/Home.vue`),
         },
-        {
-            path: "/hawkEyeO",
-            component: () => import(`@/views/MultiView/hawkEyeO.vue`),
-        },
-        {
-            path: "/hawkEyeL",
-            component: () => import(`@/views/MultiView/hawkEyeL.vue`),
-        },
-        {
-            path: "/hawkEyeC",
-            component: () => import(`@/views/MultiView/hawkEyeC.vue`),
-        },
-        {
-            path: "/swipe",
-            component: () => import(`@/views/MultiView/Swipe.vue`),
-        },
-        {
-            path: "/doubleView",
-            component: () => import(`@/views/MultiView/DoubleView.vue`),
-        },
+        
     ],
 });
 export default router;
